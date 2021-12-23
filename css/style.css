@@ -1,0 +1,228 @@
+/* header start */
+header {
+  background-color: rgb(255 255 255 / 60%);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+header nav .header-logo img {
+  width: 100px;
+}
+header nav .nav-links ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+header nav .nav-links ul li {
+  margin: 0 5px;
+}
+header nav .nav-links ul li a {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #999;
+  font-weight: 400;
+}
+header nav .nav-links ul li a:hover {
+  color: #f39200;
+}
+/* header end */
+
+/* home start */
+main section .home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 140px auto;
+}
+main section .home .home-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+}
+main section .home .home-article h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+main section .home .home-article h3 {
+  color: #999;
+  font-weight: 400;
+  font-size: 20px;
+}
+main section .home .home-img {
+  width: 50%;
+}
+main section .home .home-img img {
+  width: 100%;
+}
+main section .service-color {
+  background-color: #f2f2f2;
+}
+main section .service-color .service {
+  background-color: #f2f2f2;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+main section .service-color .service .service-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.125;
+  margin-top: 60px;
+}
+main section .service-color .service .service-header h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+main section .service-color .service .service-header h3 {
+  font-size: 20px;
+  color: #999;
+  font-weight: 400;
+}
+main section .service-color .service .divider {
+  width: 60px;
+  height: 3px;
+  border-radius: 50px;
+  background-color: #f39200;
+  margin: 25px auto;
+}
+main section .service-color .service .service-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 25px;
+  column-gap: 100px;
+}
+main section .service-color .service .service-items .service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border: solid 1px #ededed;
+  text-align: center;
+}
+main section .service-color .service .service-items .service-card h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #444f60;
+  margin: 25px 0;
+}
+main section .service-color .service .service-items .service-card .service-img {
+  width: 40%;
+  margin-bottom: 10px;
+}
+main
+  section
+  .service-color
+  .service
+  .service-items
+  .service-card
+  .service-img
+  img {
+  width: 100%;
+}
+main section .service-color .service .service-items .service-card h4 {
+  font: 16px;
+  color: #999;
+  font-weight: 400;
+  margin-bottom: 80px;
+  padding: 0 30px;
+}
+.spacer {
+  height: 100px;
+  width: 100%;
+}
+/* summary */
+main section .summary {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+main section .summary .summary-header {
+  text-align: center;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main section .summary .summary-header h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+main section .summary .summary-header h4 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #999;
+  margin-bottom: 20px;
+}
+main section .summary .summary-header .divider {
+  width: 60px;
+  height: 3px;
+  border-radius: 50px;
+  background-color: #f39200;
+  margin-bottom: 50px;
+}
+main section .summary .summary-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+main section .summary .summary-content .summary-img {
+  width: 30%;
+}
+main section .summary .summary-content .summary-img .img-correction {
+  width: 50%;
+  margin: 0 auto;
+}
+main section .summary .summary-content .summary-img img {
+  width: 100%;
+}
+main section .summary .summary-content .summary-text {
+  line-height: 1.5;
+  width: 70%;
+}
+main section .summary .summary-content .summary-text h6 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #444f60;
+}
+main section .summary .summary-content .summary-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #a9abac;
+}
+main section .summary .summary-content .summary-text p span {
+  background-color: #f5f5f5;
+  color: #ff3860;
+}
+footer {
+  background-color: rgb(54 54 54 / 30%);
+  display: flex;
+  justify-content: center;
+}
+footer .footer-logo {
+  width: 80%;
+  padding: 10px;
+}
+footer .footer-logo img {
+  width: 100px;
+}
